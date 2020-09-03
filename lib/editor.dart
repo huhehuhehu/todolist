@@ -28,7 +28,7 @@ class _editorState extends State<editor>{
 
   TextField tf = TextField(
     maxLines: 99999,
-    // autofocus: true,
+    autofocus: true,
     controller: (!editing) ? myController : (myController..text = ques[index].content),
   );
 
